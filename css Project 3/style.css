@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     width:100vw;
+    height:100vh;
+     background-image: url(https://tse1.mm.bing.net/th/id/OIP.g1_luivWXfq29aDmX0mxIgHaEK?pid=Api&P=0&h=180);
+      background-size: cover;
+}
+ .loginpage{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        gap:30px;
+      width:50%;
+      height:70%;
+      background-color:rgba(240, 255, 255, 0.281);
+      border-radius: 30px;
+      backdrop-filter:blur(1px);
+}
+ .logindetails{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.password{
+      font-size: 20px;
+      width:50%;
+    display:flex;
+    justify-content: space-between;
+    
+}  
+h1{
+   /* font-family: "lato",sans-serif; */
+    font-size:80px;
+}
+
+ input[type="text"],input[type="password"]{
+    padding:20px;
+    border:none;
+    border-radius: 20px;
+    font-size: 20px;
+
+}
+input[type="checkbox"]{
+    width:20px;
+    height:20px;
+}
+button{
+    cursor:pointer;
+    height:40px;
+    width:90px;
+    padding:20px,40px;
+    border:none;
+    border-radius: 10px;
+    font-size: 20px;
+    background:linear-gradient(rgba(255, 255, 0, 0.582),rgba(255, 192, 203, 0.436),rgba(128, 0, 128, 0.189));
+} 
+
+p{
+    text-decoration: underline;
+}
+
+           /* *************** Responsiveness  ************ */
+           /* Responsive mhnje jevha khadi website mobile,laptop,tab yachya vr open krto tevha ti vyasthit disnya 
+           sthi responsiveness use kratat-------google la jaun breakpoints for responsive design he serch kraych tithe yet mg 
+           laptop chi ,mob,tab sglyanchi min and max px size ti @media ast na tithe paste kraych */
+   /* mobile devices */
+
+      /* ********** Process *************
+       aata aapn hi size dili brobr mob,tab,laptop chi---mg output vr jaych right click krun inspect vr jaych tithr device select kraych 
+       mg je khi kmi jast vatty te adjust kraych ___te ks kraych tr jo class dila aahe tyat vr jaych inspect kelya screen vr ha nantr right
+    click krun copu rool kraych te ikde media mdhe paste kraych ...js pahije ts mg adjust kraych  */
+@media screen and (min-width :320px) and (max-width :480px){
+    .container {
+     /* overflow: hidden; */
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    }
+    .loginpage {
+   gap: 20px;
+    width: 80%;
+    height: 75%;
+   
+}
+h1 {
+    font-size: 50px;
+}
+.logindetails {
+    width: 86%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+input[type="text"], input[type="password"] {
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+}
+input[type="text"], input[type="password"] {
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    
+}
+.password {
+    font-size: 16px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+}
+
+   
+}
+
+   /* Tablet and ipads */
+@media screen and (min-width :481px) and (max-width :768px){
+    .container {
+     /* overflow: hidden; */
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    }
+    .loginpage {
+   gap: 20px;
+    width: 80%;
+    height: 75%;
+   
+}
+h1 {
+    font-size: 50px;
+}
+.logindetails {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+input[type="text"], input[type="password"] {
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+}
+input[type="text"], input[type="password"] {
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    
+}
+.password {
+    font-size: 16px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+}
+
+}
+    /* small screen */
+@media screen and (min-width :769px) and (max-width :1024px){
+}
+   /* Large screen */
+@media screen and (min-width :1025px) and (max-width :1200px){
+}
+    /* .loginpage{
+        background-color: brown; */
+        /* font-style: italic; */
+
+        /* Extra-Small (Mobile): Up to 576px or ~500px (for smartphones)
+Small (Tablet): ~577px to 768px or 500px to 1200px (for tablets)
+Medium (Laptop): ~769px to 1024px or ~1200px to 1400px (for laptops)
+Large (Desktop): ~1025px and up or 1400px and larger (for large monitors) */
+
+    
